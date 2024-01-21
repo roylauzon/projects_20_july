@@ -39,7 +39,9 @@
           },
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
+          "NumberOfDaysBuildByTaskIsRelevant": 30,
           "PreventCommitObjectWithConflict": false,
+          "SaveObjectScopeAtProjectLevel": null,
           "UseCache": null,
           "IgnoreTextualChangesBasedOnMetadata": true
         },
@@ -65,6 +67,17 @@
                     "dbName": "sc_20_7",
                     "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
+                },
+                {
+                  "BranchName": "branch1",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "sc_20_7",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
@@ -75,12 +88,27 @@
           ]
         }
       ],
-      "DatabasesStaticDataObjects": null
+      "DatabasesStaticDataObjects": [
+        {
+          "StaticDataObjects": [],
+          "DatabaseId": "15a8539a-0bb4-4866-9efb-e8869b3a6043",
+          "DatabaseAliasName": "db1"
+        }
+      ],
+      "DatabasesScopeObjects": [
+        {
+          "ExcludeObjects": [],
+          "IncludeObjects": [],
+          "DatabaseId": "15a8539a-0bb4-4866-9efb-e8869b3a6043",
+          "DatabaseAliasName": "db1"
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null,
   "RepositoryConfiguration": null,
   "GeneralConfigurations": {
-    "SupportMultiDatabasePerProject": false
+    "SupportMultiDatabasePerProject": false,
+    "SaveObjectScopeAtProjectLevel": true
   }
 }
