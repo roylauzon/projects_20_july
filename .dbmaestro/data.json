@@ -97,7 +97,15 @@
       ],
       "DatabasesScopeObjects": [
         {
-          "ExcludeObjects": [],
+          "ExcludeObjects": [
+            {
+              "ObjectType": "Table",
+              "ObjectName": "*3*",
+              "AllObjectsOfType": false,
+              "AllowInBuild": false,
+              "AllowInSourceControl": true
+            }
+          ],
           "IncludeObjects": [],
           "DatabaseId": "15a8539a-0bb4-4866-9efb-e8869b3a6043",
           "DatabaseAliasName": "db1"
