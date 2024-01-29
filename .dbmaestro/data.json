@@ -104,6 +104,13 @@
               "AllObjectsOfType": false,
               "AllowInBuild": false,
               "AllowInSourceControl": true
+            },
+            {
+              "ObjectType": "Table",
+              "ObjectName": "*5*",
+              "AllObjectsOfType": false,
+              "AllowInBuild": false,
+              "AllowInSourceControl": true
             }
           ],
           "IncludeObjects": [],
