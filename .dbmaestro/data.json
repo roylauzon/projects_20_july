@@ -120,7 +120,15 @@
               "AllowInSourceControl": true
             }
           ],
-          "IncludeObjects": [],
+          "IncludeObjects": [
+            {
+              "ObjectType": "Table",
+              "ObjectName": "table*",
+              "AllObjectsOfType": false,
+              "AllowInBuild": true,
+              "AllowInSourceControl": true
+            }
+          ],
           "DatabaseId": "15a8539a-0bb4-4866-9efb-e8869b3a6043",
           "DatabaseAliasName": "db1"
         }
