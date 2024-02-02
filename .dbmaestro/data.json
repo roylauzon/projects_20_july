@@ -118,6 +118,13 @@
               "AllObjectsOfType": false,
               "AllowInBuild": false,
               "AllowInSourceControl": true
+            },
+            {
+              "ObjectType": "Table",
+              "ObjectName": "table_4",
+              "AllObjectsOfType": false,
+              "AllowInBuild": true,
+              "AllowInSourceControl": true
             }
           ],
           "IncludeObjects": [
