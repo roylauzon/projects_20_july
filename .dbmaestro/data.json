@@ -90,7 +90,14 @@
       ],
       "DatabasesStaticDataObjects": [
         {
-          "StaticDataObjects": [],
+          "StaticDataObjects": [
+            {
+              "UniqueIndex": "PK_Table_4",
+              "schema": "dbo",
+              "name": "Table_4",
+              "type": "Table"
+            }
+          ],
           "DatabaseId": "15a8539a-0bb4-4866-9efb-e8869b3a6043",
           "DatabaseAliasName": "db1"
         }
